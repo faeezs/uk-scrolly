@@ -1,0 +1,29 @@
+{
+  "name": "uk-scrolly",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "svelte": "^3.55.1",
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "@onsvisual/svelte-charts": "0.2.10",
+    "@onsvisual/svelte-maps": "^1.1.6",
+    "@sveltejs/svelte-scroller": "^2.0.7",
+    "@turf/bbox": "^6.5.0",
+    "d3-dsv": "^3.0.1",
+    "debounce": "^1.2.1",
+    "mapbox-gl": "1.13.1",
+    "maplibre-gl": "^2.4.0",
+    "parse-color": "^1.0.0",
+    "pmtiles": "^2.7.1",
+    "topojson-client": "^3.1.0"
+  }
+}
